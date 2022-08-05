@@ -21,3 +21,33 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+button {
+    font-size: 18px;
+    letter-spacing: 4px;
+    border: none;
+    padding: 10px;
+    color:#232c3d;
+    background-color:#bccbe9;
+    cursor: pointer;
+   transition: 0.5s;
+
+}
+button:hover{
+    background-color: #d5e3ff;
+}
+button.active{
+    background-color:white;
+}
+.active{
+    background-color:white;}
+p{
+    text-align: left;
+    padding: 10px ;
+}
+.content{
+    display: none;
+    padding: 10px 20px;
+}
+.content.active{
+    display: block;
+}
